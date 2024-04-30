@@ -19,7 +19,8 @@ OpenMP (Open Multi-Processing) - это набор директив, функц�
 
 С помощью стандарта OpenMP (Open Multi-Processing) было реализовано распараллеливание функции умножения матриц
 
-``` int** MultiplyMatrix(int** matrix, int rows) {
+```
+int** MultiplyMatrix(int** matrix, int rows) {
     int i, j, k;
     int** matrix_new = new int* [rows];
     for (int i = 0; i < rows; i++) {
